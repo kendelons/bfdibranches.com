@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Shag-Lounge";
+  src: url("Shag-Lounge.otf") format("truetype"); /* Adjust path as needed */
+}
+
+.AAAAA {
+    border: 2px solid white;       /* White border */
+    background-color: #000000;     /* Pitch black background */
+    border-radius: 40px;           /* 40px rounded corners */
+    padding: 10px;                 /* Optional padding for inner content */
+    color: white;                  /* Optional: white text for visibility */
+}
