@@ -13,7 +13,7 @@
 			 font-family: 'Shag-Lounge', sans-serif;
 			 text-align: center;
 			 ">
-	<nav class="AAAAA"> 
+	<nav class="AAAAA" id="aaa"> 
 		<img src="website logo.png" width="161" alt="Unofficial Website Logo" >
 		<span style="font-family:'sans-serif';">&nbsp;&nbsp;&nbsp;&nbsp;</span>
 		<span style="font-family:'sans-serif';">&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -40,8 +40,16 @@
 		</button>
 	</nav>
 	
-	<nav class="AAAAA2" style="bottom:0; position:fixed;">
-		<span style="font-size:25px">Disclaimer: bfdibranches.com is not affiliated with Team Branches or BFDI: Branches.</span>
+	<nav class="AAAAA2" style="bottom:5px; position:absolute;">		
+		<div style="display:flex;justify-content:flex-start;gap:5px;">
+		<button class="text-button" style="left:0;display:flex;justify-content:flex-start"><img src="discord.png" width="50px"></button>
+		<button class="text-button" style="left:0;display:flex;justify-content:flex-start"><img src="patreon.png" width="50px"></button>
+		<button class="text-button" style="left:0;display:flex;justify-content:flex-start"><img src="itchio.png" width="50px"></button>
+		<button class="text-button" style="left:0;display:flex;justify-content:flex-start"><img src="wikigg.png" width="50px"></button>
+		<button class="text-button" style="left:0;display:flex;justify-content:flex-start"><img src="soundcloud.png" width="50px"></button>
+		</div>
+			
+		<span style="font-size:20px; right:0;display:flex">Disclaimer: bfdibranches.com is not affiliated with Team Branches or BFDI: Branches.</span>
 	</nav>
 </body>
 <style>
@@ -57,17 +65,17 @@
 	justify-content:flex-start;
 }
 .AAAAA2 {
-	bottom:0;
-	right:0;
+	bottom:0px;
+	left:5px;
+	right:5px;
     border: 2px solid white;       /* White border */
     background-color: #000000;     /* Pitch black background */
     border-radius: 40px;           /* 40px rounded corners */
-    padding: 25px;                 /* Optional padding for inner content */
+    padding: 15px;                 /* Optional padding for inner content */
     color: white;                  /* Optional: white text for visibility */
-	vertical-align:middle;
 	align-items:center;
 	display: flex;
-	justify-content:flex-start;
+	justify-content:space-between;
 }
 	.text-button {
     background: none;
